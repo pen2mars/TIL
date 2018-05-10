@@ -1,3 +1,6 @@
 # TIL
 What I learned Today
-##### 오늘부터 복습 꾸준히
+## Let's keep up with REVIEWING lessons
+### 
+#### Don't make any excuse
+##### 
