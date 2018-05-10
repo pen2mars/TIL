@@ -1,7 +1,7 @@
 
 # GIT
 ## 1. What's the use of GIT?
- `**source version management` & `collaboration`
+ `source version management` & `collaboration`
 ## 2. Steps (a. from LOCAL / b. from GITHUB_clone)
  #### a-1. $ git init
  #### a-2. $ git add FILENAME
@@ -33,11 +33,11 @@
  **push는 여러 commit을 동시에 수행해도 무방함**  
  **COMMIT는 시간적 개념, BRANCH는 공간적 개념**
 
- Example.  
-        Master에 README.MD 생성됨       -> 이 시점(PM. 10)에서 BRANCH (develop) 생성  
-        IN develop BRANCH) README.MD 수정 중    -> IN Master) README.MD 변화 없음 *당연히*  
-        IN develop BRANCH) 수정 후 add/commit/push -> IN Master) README.MD 변화 없음 *당연히*  
-        IN Master) **develop** 내용을 `merge` 해오자 -> develop에서 **commit된 시점의 소스**가 Master에 반영됨
+ *Example.*  
+        Master에 README.MD 생성됨       **->**      BRANCH (develop) 생성  
+        IN develop BRANCH) README.MD 수정 중    **->**      IN Master) README.MD 변화 없음 *당연히*  
+        IN develop BRANCH) 수정 후 add/commit/push      **->**      IN Master) README.MD 변화 없음 *당연히*  
+        IN Master) **develop** 내용을 `merge` 해오자    **->**      develop에서 **commit된 시점의 소스**가 Master에 반영됨
 
 
 
