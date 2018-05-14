@@ -12,9 +12,11 @@
 ***
  #### b-1. GITHUB 에서 repository 생성 후       
  #### b-2. $ git clone URL      
- #### a-3. $ git add FILENAME
- #### a-4. $ git commit -m "MESSAGE"
- #### a-5. $ git push NICKNAME master
+ #### b-3. $ git add FILENAME
+ #### b-4. $ git commit -m "MESSAGE"
+ #### b-5. $ git push NICKNAME master
+
+cf. git fetch ORIGIN(리모트와 동기화할 대상) : GIT 리모트로부터 로컬에 없는 정보를 업데이트 한다.
 ***
 # BRANCH
 ## 1. What's the use of BRANCH?
